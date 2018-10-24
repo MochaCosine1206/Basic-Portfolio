@@ -1,0 +1,13 @@
+.header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.header a {
+    float: right;
+    text-align: center;
+}
+
+.body {
+    max-width: 960px;
+    'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
