@@ -8,16 +8,16 @@ p {
 }
 
 .background {
-    display: block;
-    height: 100%;
-    background-image: url(/assets/images/pipes.png);
-    background-repeat: repeat;
+    background-color: #4aaaa5;
+    background-image: url(../images/pipes.png);
 }
 
 img {
     height: 230px;
     width: auto;
     float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
 }
 
 .header{
@@ -26,6 +26,7 @@ img {
     overflow: hidden;
     background-color: #ffffff;
     border-bottom: 2px solid #dddddd;
+    top: 0;
 }
 
 ul {
@@ -75,19 +76,40 @@ li.myName {
 hr {
     height: 2px;
     color: #666666;
-    border: 0;
+    border-style: solid;
 }
 .about {
-    max-width: 930px;
     background-color: #ffffff;
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
-    margin-top: 40px;
-    margin-bottom: 40px;
     padding: 0px 30px;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    top: 30px;
+    left: 164px;
+    bottom: 150px;
+    width: 900px;
+}
+
+.about h1 {
+    color: #4aaaa5;
+}
+
+.formbox {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 0px 30px;
+    position: relative;
+    top: 30px;
+    left: 164px;
+    bottom: 150px;
+    width: 900px;
+}
+
+.formbox h1 {
+    color: #4aaaa5;
 }
 
 .footer {
@@ -97,6 +119,7 @@ hr {
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
+    margin-top: 80px;
 }
 
 p.copyright {
