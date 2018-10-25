@@ -10,6 +10,7 @@ p {
 .background {
     background-color: #4aaaa5;
     background-image: url(../images/pipes.png);
+    background-repeat: repeat;
 }
 
 img {
@@ -87,7 +88,7 @@ hr {
     position: relative;
     top: 30px;
     left: 164px;
-    bottom: 150px;
+    margin-bottom: 100px;
     width: 900px;
 }
 
@@ -101,15 +102,56 @@ hr {
     border-width: 1px;
     border-color: #dddddd;
     padding: 0px 30px;
+    padding-bottom: 30px;
     position: relative;
     top: 30px;
     left: 164px;
-    bottom: 150px;
+    margin-bottom: 300px;
     width: 900px;
 }
 
 .formbox h1 {
     color: #4aaaa5;
+}
+
+input[type=text], textarea {
+    width: 100%;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+.imagebox {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 0px 30px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 30px;
+    left: 164px;
+    margin-bottom: 300px;
+    width: 900px;
+}
+
+.imagebox h1 {
+    color: #4aaaa5;
+}
+
+.text{
+    position: absolute;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 100%;
+    padding: 0 auto;
+    font-size: 16px;
+    top: 100px;
 }
 
 .footer {
@@ -119,9 +161,12 @@ hr {
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
-    margin-top: 80px;
+    margin-top: 0px;
+    height: 30px;
 }
 
 p.copyright {
     color: #ffffff;
+    font-size: 6pt;
+    bottom: 0;
 }
