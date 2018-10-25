@@ -114,6 +114,8 @@ hr {
     color: #4aaaa5;
 }
 
+
+
 input[type=text], textarea {
     width: 100%;
 }
@@ -141,6 +143,24 @@ input[type=submit] {
 
 .imagebox h1 {
     color: #4aaaa5;
+}
+
+.imagebox img {
+    height: 200px;
+    width: auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .text{
