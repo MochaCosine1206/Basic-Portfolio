@@ -146,14 +146,14 @@ input[type=submit] {
 }
 
 .imagebox img {
-    height: 200px;
+    height: 230px;
     width: auto;
 }
 
 .column {
     float: left;
     width: 33.33%;
-    padding: 5px;
+    padding: 15px;
 }
 
 /* Clearfix (clear floats) */
@@ -163,16 +163,25 @@ input[type=submit] {
     display: table;
 }
 
-.text{
-    position: absolute;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    width: 100%;
-    padding: 0 auto;
-    font-size: 16px;
-    top: 100px;
+.imgtxt {
+    position: relative;
 }
+
+.txtbar{
+    position: absolute;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 100%;
+    border: none;
+    margin-top: 50%;
+    margin-bottom: 20%;
+}
+
+.txtbar p {
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 
 .footer {
     background-color: #666666;
