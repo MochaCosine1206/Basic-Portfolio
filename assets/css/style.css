@@ -80,6 +80,7 @@ hr {
     background-color: #cccccc;
     border-style: solid;
 }
+
 .about {
     background-color: #ffffff;
     border-style: solid;
@@ -154,10 +155,11 @@ input[type=submit] {
 .column {
     float: left;
     width: 33.33%;
-    padding: 15px;
+    border: none;
+    padding-right: 15px;
+    padding-top: 5px;
 }
 
-/* Clearfix (clear floats) */
 .row::after {
     content: "";
     clear: both;
