@@ -5,6 +5,7 @@ h1, h2, h3, h4, {
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 0px 30px;
 }
 
 .background {
@@ -87,16 +88,17 @@ hr {
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
-    padding: 0px 30px;
-    position: relative;
+    padding: 0;
     top: 30px;
     left: 164px;
     margin-bottom: 100px;
-    width: 900px;
+    max-width: 960px;
+    position: relative;
 }
 
 .about h1 {
     color: #4aaaa5;
+    padding: 0px 30px;
 }
 
 .formbox {
