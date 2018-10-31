@@ -24,7 +24,7 @@ img {
     margin-bottom: 10px;
 }
 
-.header{
+header{
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -37,7 +37,7 @@ ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    max-width: 960px;
+    max-width: 930px;
 }
 
 li {
@@ -93,7 +93,7 @@ hr {
     border-color: #dddddd;
     padding: 0px 15px 20px 15px;
     margin: auto;
-    max-width: 960px;
+    max-width: 930px;
     position: relative;
 }
 
@@ -174,7 +174,7 @@ input[type=submit] {
 }
 
 
-.footer {
+footer {
     background-color: #666666;
     text-align: center;
     border-top: 8px solid #4aaaa5;
