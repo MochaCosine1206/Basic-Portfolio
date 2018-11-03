@@ -16,7 +16,8 @@ body {
     background-image: url(../images/pipes.png);
     background-repeat: repeat;
     overflow: hidden;
-    padding: 5% 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
 }
 
@@ -41,7 +42,7 @@ ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    max-width: 930px;
+    max-width: 962px;
 }
 
 li {
@@ -97,7 +98,7 @@ hr {
     border-color: #dddddd;
     padding: 0px 15px 20px 15px;
     margin: auto;
-    max-width: 930px;
+    max-width: 928px;
     position: relative;
 }
 
@@ -112,7 +113,7 @@ hr {
     border-color: #dddddd;
     padding: 0px 15px 20px 15px;
     margin: auto;
-    max-width: 930px;
+    max-width: 928px;
     position: relative;
 }
 
@@ -140,9 +141,9 @@ input[type=submit] {
     border-color: #dddddd;
     padding: 0px 15px 20px 15px;
     margin: auto;
-    max-width: 930px;
+    max-width: 928px;
     position: relative;
-    float: left;
+    overflow: auto;
 }
 
 .imagebox h1 {
